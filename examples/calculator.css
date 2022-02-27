@@ -1,0 +1,10 @@
+/* Ask the user for input */
+stdout
+input[type=number]#numerator
+{ content: 'Input the numerator: '; }
+stdout
+input[type=number]#denominator
+{ content: 'Input the denominator: '; }
+/* Calculates the fraction */
+stdout::after
+{ content: 'The result is ' calc(attr(value) / attr(value)); }

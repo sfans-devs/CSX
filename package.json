@@ -1,0 +1,24 @@
+{
+  "name": "csx",
+  "version": "0.1.0",
+  "description": "Turns CSS into a Turing–complete programming language by using an HTML parser",
+  "main": "icsx.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuckDuck7710/CSX.git"
+  },
+  "keywords": [
+    "css",
+    "programming-language"
+  ],
+  "author": "StuckDuck7710",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/StuckDuck7710/CSX/issues"
+  },
+  "homepage": "https://github.com/StuckDuck7710/CSX#readme",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0"
+  }
+}
